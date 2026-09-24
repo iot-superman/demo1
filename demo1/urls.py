@@ -20,7 +20,5 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('bweb/', views.bweb, name='bweb'),
-    path('aweb/', views.aweb, name='aweb'),
- 
+    path('aweb/',view.aweb, name='aweb'),
 ]
